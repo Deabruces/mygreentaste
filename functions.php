@@ -11,4 +11,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->";
 	}
 }
-add_action( 'wp_head', 'wpdocs_pingbackurl_example' );
+add_action( 'wp_head', 'mygreentaste_include_tag_manager_head' );
