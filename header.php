@@ -22,6 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<?php wp_head(); ?>
+	<meta name="author-prueba" content="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
 </head>
 
 <body <?php body_class(); ?>>
